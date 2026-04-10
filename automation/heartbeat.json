@@ -1,0 +1,25 @@
+{
+  "service_name": "machine-learning-models",
+  "status": "healthy",
+  "timestamp": "2024-01-26T10:00:00Z",
+  "version": "1.2.3",
+  "dependencies": {
+    "database": {
+      "status": "healthy",
+      "last_check": "2024-01-26T09:59:55Z"
+    },
+    "model_registry": {
+      "status": "healthy",
+      "last_check": "2024-01-26T09:59:50Z"
+    }
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage": 0.60,
+    "request_latency": 0.02
+  },
+  "metadata": {
+    "environment": "production",
+    "region": "us-east-1"
+  }
+}
